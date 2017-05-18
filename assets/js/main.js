@@ -10,7 +10,7 @@ function agregar(){
 
 	//indicamos donde estaran las tareas recuperadas del textarea
 	var contenedor=document.getElementById("areaContenedor");
-    contenedor.innerHTML=list;
+    contenedor.innerHTML+=list;
 	}
 
 	/*//funcion constructor de las listas
