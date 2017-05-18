@@ -1,6 +1,11 @@
 window.onload=function(){
-		document.getElementById("botonLista").addEventListener("click", agregar);
-	}
+	document.getElementById("botonLista").addEventListener("click", agregar);
+}
+
+/*window.onload=function(){
+	document.getElementById("botonTarea").addEventListener("click", agregar);
+}*/
+
 
 function agregar(){
 
@@ -10,8 +15,27 @@ function agregar(){
 
 	//indicamos donde estaran las tareas recuperadas del textarea
 	var contenedor=document.getElementById("areaContenedor");
-    contenedor.innerHTML+=list;
-	}
+	contenedor.innerHTML+=list;
+
+	var tareas=document.createElement("div");
+	tareas.setAttribute("id");
+	var nombreTarea=document.createTextNode("Agregar Tareas");
+
+    list.appendChild(tareas);
+    
+}
+/*function agregaTareas(){ 
+	var tareas=document.getElementById("newTarea").value;
+	document.getElementById("newTarea").value="";
+
+	var espacio=document.getElementById("contenedorTarea");
+	espacio.innerHTML+=tareas;
+
+	
+//}agregaTareas();
+}*/
+
+
 
 	/*//funcion constructor de las listas
 function Lista(id){

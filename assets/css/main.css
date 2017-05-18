@@ -1,1 +1,23 @@
-main.css
+body{
+	background-image: url("http://empresariame.com/wp-content/uploads/2016/06/portada-trello.jpg");
+	background-repeat: no-repeat;
+	background-position: 80px 30px;
+	padding-left: 90px;
+	padding-top: 90px;
+}
+
+.listas,
+#areaContenedor
+{
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+
+}
+
+#newList{
+	border: #7C1A88 solid;
+}
+.lista{
+	border:#169652  solid;
+}
+
